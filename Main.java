@@ -23,7 +23,7 @@ public class Main {
         System.out.println("After deposit: " + account);
 
         try {
-            account.withdraw(800.0); // more than balance
+            account.withdraw(800.0); // more than balance!!!!!
         } catch (InvalidAmountException e) {
             System.out.println("Exception caught: " + e.getMessage());
         }
